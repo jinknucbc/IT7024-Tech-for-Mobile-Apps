@@ -2,9 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, TextInput, View } from 'react-native';
 import React, {useState} from 'react';
 import CardList from './CardList';
-import CardInput from './CardInput';
-import Card from './Card';
-import uuid from "react-native-uuid"
+
 
 export default function App() {
 
@@ -13,11 +11,8 @@ export default function App() {
 
   const addCard = (newCard) => {
     // The new card being received here is just being added to the array.
-    console.log("Add button pressed")
-    console.log(newCard)
     
     setCards([...cards, newCard])
-    console.log(cards)
   }
 
   const updateCard = (id, cardUpdated) => {
@@ -26,7 +21,6 @@ export default function App() {
 // Card deletion would have to be done here, because this is the one with access
 // to cards array.
   const deleteCard = (id, index) => {
-    console.log(id)
     setCards(cards.filter((card, idx) => idx !== index))
   }
 

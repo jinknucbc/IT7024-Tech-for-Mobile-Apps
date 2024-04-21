@@ -1,6 +1,5 @@
 import { View, Text, TouchableOpacity, FlatList, TextInput, StyleSheet, ScrollView } from 'react-native'
 import React, { useState } from 'react'
-import Card from './Card'
 import uuid from "react-native-uuid"
 
 const CardList = ({cards, onUpdate, onDelete, onAdd}) => {
@@ -8,11 +7,7 @@ const CardList = ({cards, onUpdate, onDelete, onAdd}) => {
   const [cardWord, setCardWord] = useState("")
   const [cardDef, setCardDef] = useState("")
 
-  const [editedWord, setEditedWord] = useState('')
-  const [editedDef, setEditedDef] = useState('')
-
   const handleAdd = () => {
-    console.log("Button pressed")
     const uid = uuid.v4()
     onAdd(
       {uid, cardWord, cardDef}

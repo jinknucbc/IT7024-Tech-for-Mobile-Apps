@@ -9,8 +9,7 @@ const Card = ({cid, word, definition}) => {
     cardWord: word,
     cardDef: definition
   }
-  console.log("Inside card component now")
-  console.log(cardObj.id)
+
   return (
     <View style={styles.card}>
       <Text style={styles.word}>{cardObj.cardWord}</Text>
