@@ -18,3 +18,5 @@ Github repository for Tech for Mobile Apps course.
 ![Screenshot5](/images_github/screenshot5_tma.jpg)
 
 **Video**:
+Here is the video.
+![Project video](/video_github/project_video.mp4)
