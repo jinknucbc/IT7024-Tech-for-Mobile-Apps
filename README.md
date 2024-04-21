@@ -11,7 +11,11 @@ Github repository for Tech for Mobile Apps course.
 
 **Project Description**: This is a simple, bare-bones flashcard application showcasing the use of FlatList component along with other React and React Native concepts such as passing props, destructuring prop objects, and custom functional components. Below are screenshots. 
 
-![Kevin's headshot](/images/1617348297605.jpg)
+![Screenshot1](/images_github/screenshot1_tma.jpg)
+![Screenshot2](/images_github/screenshot2_tma.jpg)
+![Screenshot3](/images_github/screenshot3_tma.jpg)
+![Screenshot4](/images_github/screenshot4_tma.jpg)
+![Screenshot5](/images_github/screenshot5_tma.jpg)
 
 ## Repository Information
 
